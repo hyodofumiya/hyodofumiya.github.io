@@ -1,36 +1,44 @@
 <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+  <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+</head>
 <body>
   <header>
-    <h1>Hyodo Fumiya's Portfolio</h1>
-    <div>Web Enginieer</div>
+    <div id="header_value">
+      <h1>Hyodo Fumiya's Portfolio</h1>
+      <h2>Web Enginieer</h3>
+    </div>
   </header>
   <nav></nav>
   <section id="profile">
-    <div id="profile_title">
-      <div>profile</div>
+    <div id="profile_title" class="section_title">
+      <p class="sub-label">profile</p>
       <h2>自己紹介</h2>
     </div>
     <div id="profile_main">
-      <div id="profile_image">
+      <div id="profile_image" class="profile_col">
         <span>
-          <img src="laptop.jpg" alt="プロフィール画像">
+          <img src="仮プロフィール画像.jpg" alt="プロフィール画像" class="icon_image">
         </span>
       </div>
-      <ul>
-        <li>名前：Fumiya Hyodo</li>
-        <li>出身：愛知県（現在も在住）</li>
-        <li>学歴：名古屋市立大学看護学部</li>
-        <li>
-          活動：新卒で医療機器メーカーの営業を経験。自分も商品開発がしたい！と思い転職を決意し、プログラミングスクールに通う。
-          スクールではwebアプリのチーム開発を経験。その後、企画・設計の経験とAPIへの理解を深めるためにオリジナルアプリを開発した。
-          現在は、プログラミングスキルに加え、改めてIT全般の知識を学習中。営業経験を活かすべく開発の企画から携わることを軸に転職活動を行っている。
-        </li>
-      </ul>
+      <div id="profile_value" class="profile_col">
+        <ul>
+          <li>名前：Fumiya Hyodo</li>
+          <li>出身：愛知県（現在も在住）</li>
+          <li>学歴：名古屋市立大学看護学部</li>
+          <li>
+            活動：新卒で家庭用医療機器の営業を経験。その後、プログラミングに興味を持つ。派遣をしながらスクールに通い、フリマアプリのクローンをチームで開発。また、０→１の開発体験として、自身で企画開発したオリジナルアプリを開発。
+          </li>
+          <li>現在：プログラミングスキルに加え、SaaS等を学習中。営業経験を活かすべく開発の企画から携わることを軸に転職活動を行っている。（社会人３年目）</li>
+        </ul>
+      </div>
     </div>
   </section>
   <section id="skill">
-    <div id="skill_title">
-      <p>skill</p>
+    <div id="skill_title" class="section_title">
+      <p class="sub-label">skill</p>
       <h2>スキルセット</h2>
     </div>
     <div id="skill_body">
@@ -90,8 +98,10 @@
     </div>
   </section>
   <section id="works">
-    <p>works</p>
-    <h2>製作実績</h2>
+    <div id="works_title" class="section_title">
+      <p class="sub-label">works</p>
+      <h2>製作実績</h2>
+    </div>
     <div>
       <h3>webアプリケーション</h3>
       <div id="team-works">
@@ -138,8 +148,8 @@
     </div>
   </section>
   <footer>
-    <div>
-      <p>contact</p>
+    <div id="footer_title" class="section_title">
+      <p class="sub-label">contact</p>
       <h2>お問い合わせ</h2>
     </div>
     <div>何かありましたらメールでご連絡ください</div>
