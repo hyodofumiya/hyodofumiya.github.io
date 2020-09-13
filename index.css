@@ -1,0 +1,136 @@
+:root{
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+@media screen and (max-width: 990px){
+  header h1{
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 990px){
+  header{
+    height: 100vh;
+  }
+  header h1{
+    font-size: 4.5em;
+  }
+}
+
+.body{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+header{
+  color: #fff;
+  min-height: 30rem;
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(laptop.jpg);
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(laptop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center!important;
+}
+
+h2{
+font-size: 3em;
+}
+
+
+section{
+  padding: 7.5em;
+}
+
+#header_value{
+  margin: auto;
+}
+ 
+header h1{
+  font-weight: 700;
+}
+
+.sub-label{
+  color: #ecb807;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.section_title{
+  text-align: center;
+}
+.section_title h2{
+  margin-bottom: 3rem!important;
+}
+
+#profile_main{
+  display: flex;
+  margin: auto -15px;
+  flex-wrap: wrap;
+}
+
+#profile_image{
+  max-width: 40%;
+  flex: 0 0 40%;
+}
+
+#profile_image span{
+  margin: 3em;
+  float: left;
+}
+
+.icon_image{
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  padding: -20px;
+  margin: auto;
+}
+
+#profile_value{
+  max-width: 60%;
+  flex: 0 0 60%;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+#profile_value ul li{
+  margin-bottom: 10px;
+  color: #3B3C3D;
+}
+
