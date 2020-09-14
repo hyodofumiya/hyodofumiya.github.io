@@ -171,3 +171,22 @@ header h1{
   color: #3B3C3D;
 }
 
+#skill{
+  background-color: #0f7ea0;
+  color: #fff;
+}
+#skill_body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 30%;
+  text-align: center;
+}
+.card table{
+  margin: auto;
+}
+
+card tr th{
+  width: 50%;
+}
