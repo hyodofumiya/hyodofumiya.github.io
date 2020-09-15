@@ -216,6 +216,7 @@ header h1{
   padding: 20px 15px;
   border-radius: 20px;
   position: relative;
+  margin-bottom: 30px;
 }
 .work-image{
   height: 380px;
