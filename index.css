@@ -185,7 +185,7 @@ header h1{
   text-align: center;
   background-color: rgba(0, 188, 212, 0.43);
   margin: 20px;
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 5px;
 }
 .card-title{
@@ -203,3 +203,4 @@ header h1{
 .skill_star{
   width: 83px;
 }
+
