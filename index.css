@@ -178,15 +178,28 @@ header h1{
 #skill_body{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
 .card{
-  width: 30%;
   text-align: center;
+  background-color: rgba(0, 188, 212, 0.43);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.card-title{
+  padding: 6px;
+  margin: 0px 18px 10px;
+  border-bottom: #fff solid 1px;
 }
 .card table{
   margin: auto;
 }
-
-card tr th{
-  width: 50%;
+.skill_name{
+  width: 130px;
+  text-align: left;
+}
+.skill_star{
+  width: 83px;
 }
