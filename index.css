@@ -210,13 +210,13 @@ header h1{
   justify-content: space-evenly;
 }
 .work{
-  width: 600px;
+  width: 560px;
   height: 800px;
   background-color: #eeeeee;
   padding: 20px 15px;
   border-radius: 20px;
   position: relative;
-  margin-bottom: 30px;
+  margin: 0 1em 30px;
 }
 .work-image{
   height: 380px;
